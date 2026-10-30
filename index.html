@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roblox Analytic Tools — Roblox Performance Analyzers 2026</title>
+    <meta name="description" content="Advanced performance analysis and telemetry tools for Roblox. Improve your gameplay with real-time tracking, visual overlays, and performance insights." />
+    <link rel="canonical" href="https://roblox-analytic-tools.github.io/" />
+
+    <meta property="og:title" content="Roblox Analytic Tools" />
+    <meta property="og:description" content="Collection of performance analyzers and telemetry overlays for Roblox." />
+    <meta property="og:url" content="https://roblox-analytic-tools.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #12121a, #1a1a24);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid #2a2a3a;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #f59e0b, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            border-left: 3px solid #f59e0b;
+            padding-left: 16px;
+        }
+        .badge {
+            display: inline-block;
+            background: #f59e0b;
+            color: #fff;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-right: 8px;
+        }
+        .badge-green { background: #22c55e; }
+        .card {
+            background: #1a1a2a;
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #2a2a3e;
+            transition: all 0.3s;
+        }
+        .card:hover {
+            border-color: #f59e0b;
+            box-shadow: 0 0 30px rgba(245, 158, 11, 0.1);
+        }
+        .card h2 {
+            font-size: 1.6rem;
+            color: #e2e8f0;
+            margin-bottom: 6px;
+        }
+        .card h2 a {
+            background: linear-gradient(135deg, #f59e0b, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        .card p { color: #94a3b8; margin: 8px 0; }
+        .card .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 12px 0;
+        }
+        .card .feature-tag {
+            background: #1e1e2e;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.75rem;
+            color: #94a3b8;
+            border: 1px solid #2a2a3e;
+        }
+        .card .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #f59e0b, #f97316);
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+        .card .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(245, 158, 11, 0.3);
+        }
+        .footer-meta {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #475569;
+            text-align: center;
+            border-top: 1px solid #1e1e2a;
+            padding-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 24px; }
+            h1 { font-size: 1.8rem; }
+            .card h2 { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ ROBLOX ANALYTIC TOOLS</h1>
+        <div class="subtitle">
+            <span class="badge">COLLECTION</span>
+            <span class="badge badge-green">OPEN SOURCE</span>
+            Performance Analyzers 2026
+        </div>
+        <p style="color: #cbd5e1; margin-bottom: 30px;">
+            A collection of advanced performance analysis and telemetry tools for Roblox.
+            Each tool provides real-time tracking, visual overlays, and gameplay improvement features.
+        </p>
+
+        <div class="card">
+            <h2><a href="https://roblox-analytic-tools.github.io/xeno/">⚡ XENO</a></h2>
+            <p>Fast and reliable performance analyzer with quick injection, stable overlay, and wide script support for everyday sessions.</p>
+            <div class="features">
+                <span class="feature-tag">Fast Injection</span>
+                <span class="feature-tag">Stable Overlay</span>
+                <span class="feature-tag">Script Support</span>
+                <span class="feature-tag">Clean Interface</span>
+            </div>
+            <a class="btn" href="https://roblox-analytic-tools.github.io/xeno/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://roblox-analytic-tools.github.io/madium/">⚡ MADIUM</a></h2>
+            <p>Lightweight analyzer with responsive overlay, detailed telemetry, and efficient design for smooth performance tracking.</p>
+            <div class="features">
+                <span class="feature-tag">Responsive Overlay</span>
+                <span class="feature-tag">Detailed Telemetry</span>
+                <span class="feature-tag">Lightweight</span>
+                <span class="feature-tag">Efficient</span>
+            </div>
+            <a class="btn" href="https://roblox-analytic-tools.github.io/madium/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://roblox-analytic-tools.github.io/volt/">⚡ VOLT</a></h2>
+            <p>Modern analyzer with fast injection, reliable script handling, and a clean overlay for real-time gameplay insights.</p>
+            <div class="features">
+                <span class="feature-tag">Fast Injection</span>
+                <span class="feature-tag">Script Handling</span>
+                <span class="feature-tag">Clean Overlay</span>
+                <span class="feature-tag">Modern</span>
+            </div>
+            <a class="btn" href="https://roblox-analytic-tools.github.io/volt/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://roblox-analytic-tools.github.io/solara/">⚡ SOLARA</a></h2>
+            <p>Cutting-edge performance analyzer with blazing speed, excellent script compatibility, and robust stability.</p>
+            <div class="features">
+                <span class="feature-tag">Blazing Speed</span>
+                <span class="feature-tag">Script Compatibility</span>
+                <span class="feature-tag">Robust Stability</span>
+                <span class="feature-tag">Modern Interface</span>
+            </div>
+            <a class="btn" href="https://roblox-analytic-tools.github.io/solara/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://roblox-analytic-tools.github.io/potassium/">⚡ POTASSIUM</a></h2>
+            <p>Efficient analyzer focused on stability, fast injection, and reliable telemetry for consistent gameplay tracking.</p>
+            <div class="features">
+                <span class="feature-tag">Fast Injection</span>
+                <span class="feature-tag">Stability</span>
+                <span class="feature-tag">Reliable Telemetry</span>
+                <span class="feature-tag">Consistent</span>
+            </div>
+            <a class="btn" href="https://roblox-analytic-tools.github.io/potassium/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://roblox-analytic-tools.github.io/velocity/">⚡ VELOCITY</a></h2>
+            <p>High-performance analyzer with quick injection, smooth overlay, and broad script support for fast-paced sessions.</p>
+            <div class="features">
+                <span class="feature-tag">Quick Injection</span>
+                <span class="feature-tag">Smooth Overlay</span>
+                <span class="feature-tag">Broad Script Support</span>
+                <span class="feature-tag">Fast-Paced</span>
+            </div>
+            <a class="btn" href="https://roblox-analytic-tools.github.io/velocity/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://roblox-analytic-tools.github.io/sirhurt/">⚡ SIRHURT</a></h2>
+            <p>Established analyzer with reliable injection, extensive script support, and a clean interface for performance tracking.</p>
+            <div class="features">
+                <span class="feature-tag">Reliable Injection</span>
+                <span class="feature-tag">Extensive Script Support</span>
+                <span class="feature-tag">Clean Interface</span>
+                <span class="feature-tag">Established</span>
+            </div>
+            <a class="btn" href="https://roblox-analytic-tools.github.io/sirhurt/">View Tool →</a>
+        </div>
+
+        <div class="footer-meta">
+            Roblox Analytic Tools — Collection of Performance Analyzers 2026
+        </div>
+    </div>
+</body>
+</html>
